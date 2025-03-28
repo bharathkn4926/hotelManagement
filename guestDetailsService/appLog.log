@@ -1,0 +1,90 @@
+2022-12-13 17:59:51,683 [INFO] com.guestdetails.GuestDetailsServiceApplication[1.] [restartedMain]Starting GuestDetailsServiceApplication using Java 17.0.4.1 on INLEN8520051813 with PID 35292 (C:\Users\BHARAKN\Desktop\HMS\HotleManagementSystem\guestDetailsService\target\classes started by BHARAKN in C:\Users\BHARAKN\Desktop\HMS\HotleManagementSystem\guestDetailsService)
+2022-12-13 17:59:51,683 [INFO] com.guestdetails.GuestDetailsServiceApplication[1.] [restartedMain]No active profile set, falling back to 1 default profile: "default"
+2022-12-13 17:59:52,722 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate[1.] [restartedMain]Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-12-13 17:59:52,768 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate[1.] [restartedMain]Finished Spring Data repository scanning in 43 ms. Found 1 MongoDB repository interfaces.
+2022-12-13 17:59:53,117 [INFO] org.springframework.cloud.context.scope.GenericScope[1.] [restartedMain]BeanFactory id=cb9b647d-860a-314e-9550-2a4ce3b66728
+2022-12-13 17:59:53,519 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer[1.] [restartedMain]Tomcat initialized with port(s): 1001 (http)
+2022-12-13 17:59:53,522 [INFO] org.apache.catalina.core.StandardService[1.] [restartedMain]Starting service [Tomcat]
+2022-12-13 17:59:53,525 [INFO] org.apache.catalina.core.StandardEngine[1.] [restartedMain]Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-13 17:59:53,612 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][1.] [restartedMain]Initializing Spring embedded WebApplicationContext
+2022-12-13 17:59:53,612 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext[1.] [restartedMain]Root WebApplicationContext: initialization completed in 1926 ms
+2022-12-13 17:59:53,799 [INFO] org.mongodb.driver.client[1.] [restartedMain]MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4.1+1"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@4b56c1e5], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@593328a8]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@15751e93], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-12-13 17:59:53,807 [INFO] org.mongodb.driver.connection[1.] [cluster-rtt-ClusterId{value='639870412da7ce1936e212dd', description='null'}-localhost:27017]Opened connection [connectionId{localValue:5781, serverValue:31}] to localhost:27017
+2022-12-13 17:59:53,815 [INFO] org.mongodb.driver.connection[1.] [cluster-ClusterId{value='639870412da7ce1936e212dd', description='null'}-localhost:27017]Opened connection [connectionId{localValue:5782, serverValue:32}] to localhost:27017
+2022-12-13 17:59:53,815 [INFO] org.mongodb.driver.cluster[1.] [cluster-ClusterId{value='639870412da7ce1936e212dd', description='null'}-localhost:27017]Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11118800}
+2022-12-13 17:59:53,818 [WARN] org.springframework.data.convert.CustomConversions[1.] [restartedMain]Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-12-13 17:59:53,893 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[1.] [restartedMain]Unable to start LiveReload server
+2022-12-13 17:59:53,974 [WARN] org.springframework.data.convert.CustomConversions[1.] [restartedMain]Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-12-13 17:59:56,425 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver[1.] [restartedMain]Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-13 17:59:56,967 [INFO] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration[1.] [restartedMain]Eureka HTTP Client uses Jersey
+2022-12-13 17:59:57,052 [WARN] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[1.] [restartedMain]Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 17:59:57,194 [INFO] org.springframework.cloud.netflix.eureka.InstanceInfoFactory[1.] [restartedMain]Setting initial instance status as: STARTING
+2022-12-13 17:59:57,199 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]Initializing Eureka in region us-east-1
+2022-12-13 17:59:57,203 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider[1.] [restartedMain]Using JSON encoding codec LegacyJacksonJson
+2022-12-13 17:59:57,204 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider[1.] [restartedMain]Using JSON decoding codec LegacyJacksonJson
+2022-12-13 17:59:57,204 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider[1.] [restartedMain]Using XML encoding codec XStreamXml
+2022-12-13 17:59:57,205 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider[1.] [restartedMain]Using XML decoding codec XStreamXml
+2022-12-13 17:59:57,471 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver[1.] [restartedMain]Resolving eureka endpoints via configuration
+2022-12-13 17:59:57,473 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]Disable delta property : false
+2022-12-13 17:59:57,475 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]Single vip registry refresh property : null
+2022-12-13 17:59:57,475 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]Force full registry fetch : false
+2022-12-13 17:59:57,475 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]Application is null : false
+2022-12-13 17:59:57,475 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]Registered Applications size is zero : true
+2022-12-13 17:59:57,477 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]Application version is -1: true
+2022-12-13 17:59:57,477 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]Getting all instance registry info from the eureka server
+2022-12-13 17:59:57,487 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]The response status is 200
+2022-12-13 17:59:57,488 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]Starting heartbeat executor: renew interval is: 30
+2022-12-13 17:59:57,490 [INFO] com.netflix.discovery.InstanceInfoReplicator[1.] [restartedMain]InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-13 17:59:57,494 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]Discovery Client initialized at timestamp 1670934597494 with initial instances count: 5
+2022-12-13 17:59:57,495 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry[1.] [restartedMain]Registering application GUESTDETAILS with eureka with status UP
+2022-12-13 17:59:57,496 [INFO] com.netflix.discovery.DiscoveryClient[1.] [restartedMain]Saw local status change event StatusChangeEvent [timestamp=1670934597496, current=UP, previous=STARTING]
+2022-12-13 17:59:57,504 [INFO] com.netflix.discovery.DiscoveryClient[1.] [DiscoveryClient-InstanceInfoReplicator-0]DiscoveryClient_GUESTDETAILS/INLEN8520051813.corp.capgemini.com:GuestDetails:1001: registering service...
+2022-12-13 17:59:57,508 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer[1.] [restartedMain]Tomcat started on port(s): 1001 (http) with context path ''
+2022-12-13 17:59:57,512 [INFO] com.netflix.discovery.DiscoveryClient[1.] [DiscoveryClient-InstanceInfoReplicator-0]DiscoveryClient_GUESTDETAILS/INLEN8520051813.corp.capgemini.com:GuestDetails:1001 - registration status: 204
+2022-12-13 17:59:57,512 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration[1.] [restartedMain]Updating port to 1001
+2022-12-13 17:59:57,987 [INFO] com.guestdetails.GuestDetailsServiceApplication[1.] [restartedMain]Started GuestDetailsServiceApplication in 6.545 seconds (JVM running for 538319.774)
+2022-12-13 17:59:58,000 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener[1.] [restartedMain]Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name appLog.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-12-13 18:00:07,387 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[1.] [File Watcher]Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-12-13 18:00:07,389 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry[1.] [Thread-55]Unregistering application GUESTDETAILS with eureka with status DOWN
+2022-12-13 18:00:07,389 [INFO] com.netflix.discovery.DiscoveryClient[1.] [Thread-55]Saw local status change event StatusChangeEvent [timestamp=1670934607389, current=DOWN, previous=UP]
+2022-12-13 18:00:07,389 [INFO] com.netflix.discovery.DiscoveryClient[1.] [DiscoveryClient-InstanceInfoReplicator-0]DiscoveryClient_GUESTDETAILS/INLEN8520051813.corp.capgemini.com:GuestDetails:1001: registering service...
+2022-12-13 18:00:07,392 [INFO] com.netflix.discovery.DiscoveryClient[1.] [DiscoveryClient-InstanceInfoReplicator-0]DiscoveryClient_GUESTDETAILS/INLEN8520051813.corp.capgemini.com:GuestDetails:1001 - registration status: 204
+2022-12-13 18:00:07,406 [INFO] org.apache.catalina.core.StandardService[1.] [Thread-55]Stopping service [Tomcat]
+2022-12-13 18:00:07,413 [INFO] com.netflix.discovery.DiscoveryClient[1.] [Thread-55]Shutting down DiscoveryClient ...
+2022-12-13 18:00:10,423 [INFO] com.netflix.discovery.DiscoveryClient[1.] [Thread-55]Unregistering ...
+2022-12-13 18:00:10,426 [INFO] com.netflix.discovery.DiscoveryClient[1.] [Thread-55]DiscoveryClient_GUESTDETAILS/INLEN8520051813.corp.capgemini.com:GuestDetails:1001 - deregister  status: 200
+2022-12-13 18:00:10,439 [INFO] com.netflix.discovery.DiscoveryClient[1.] [Thread-55]Completed shut down of DiscoveryClient

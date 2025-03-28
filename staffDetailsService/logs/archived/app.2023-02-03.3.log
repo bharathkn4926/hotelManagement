@@ -1,0 +1,47 @@
+2023-02-03 16:56:19,963 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:01:19,986 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:06:19,993 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:11:20,004 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:16:20,009 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:21:20,047 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:26:20,057 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:31:20,060 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:36:20,072 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:41:20,084 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:46:20,091 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:51:20,098 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-03 17:52:46,369 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='63d8a3a74b8be549fb88e094', description='null'}-localhost:27017] Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketWriteException: Exception sending message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateWriteException(InternalStreamConnection.java:684)
+	at com.mongodb.internal.connection.InternalStreamConnection.sendMessage(InternalStreamConnection.java:555)
+	at com.mongodb.internal.connection.InternalStreamConnection.sendCommandMessage(InternalStreamConnection.java:381)
+	at com.mongodb.internal.connection.InternalStreamConnection.send(InternalStreamConnection.java:348)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Connection reset by peer
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at com.mongodb.internal.connection.SocketStream.write(SocketStream.java:99)
+	at com.mongodb.internal.connection.InternalStreamConnection.sendMessage(InternalStreamConnection.java:552)
+	... 5 common frames omitted
+2023-02-03 17:52:46,391 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='63d8a3a74b8be549fb88e094', description='null'}-localhost:27017] Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:193)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 4 common frames omitted
